@@ -1,0 +1,27 @@
+{
+    "name": "zfy/push",
+    "description": "Third party message push",
+    "type": "library",
+    "require": {
+        "php": ">=5.4",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zengfy",
+            "email": "bnyt_zengfanyang@163.com"
+        }
+    ],
+     "autoload": {
+        "psr-4": {
+            "Zfy\\Push\\": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
